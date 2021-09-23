@@ -342,6 +342,10 @@ li {
   padding-left: 30px;
 }
 
+.nav-links{
+  z-index: 1000;
+}
+
 .content .row header {
   color: rgb(1, 178, 238);
   font-size: 20px;
