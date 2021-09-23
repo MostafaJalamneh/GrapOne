@@ -125,27 +125,27 @@ const Header = () => {
             </div>
             <div className="bottomMenuDiv">
                 <ul className="bottomMenu">
-                    <li><a href="https://www.bitdegree.org/" target="_blank"><div className="mobileMenu">
+                    <li><a target="_blank"><div className="mobileMenu">
                         <img src={homeM} />
                         <h6>Home</h6>
                     </div> </a></li>
 
-                    <li><a href="https://www.bitdegree.org/" target="_blank"><div className="mobileMenu">
+                    <li><a target="_blank"><div className="mobileMenu">
                         <img src={loupeM} />
                         <h6>Search</h6>
                     </div> </a></li>
 
-                    <li><a href="https://www.bitdegree.org/" target="_blank"><div className="mobileMenu">
+                    <li><a target="_blank"><div className="mobileMenu">
                         <img src={squareM} />
                         <h6>Categories</h6>
                     </div> </a></li>
 
-                    <li><a href="https://www.bitdegree.org/" target="_blank"><div className="mobileMenu">
+                    <li><a target="_blank"><div className="mobileMenu">
                         <img src={cartM} />
                         <h6>Cart</h6>
                     </div> </a></li>
 
-                    <li><a href="https://www.bitdegree.org/" target="_blank"><div className="mobileMenu">
+                    <li><a target="_blank"><div className="mobileMenu">
                         <img src={userM} />
                         <h6>Account</h6>
                     </div> </a></li>
