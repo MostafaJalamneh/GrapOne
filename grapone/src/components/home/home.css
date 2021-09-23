@@ -1,0 +1,455 @@
+.homeContainer {
+  background-color: #f4f7fb;
+  width: 100%;
+}
+
+.firstDiv {
+  padding-top: 3px;
+  width: 96%;
+  padding: 24px;
+  margin-bottom: 10px;
+}
+
+.firstDiv p {
+  padding-top: 25px;
+  font-size: 16px;
+  color: #4f5864;
+}
+
+.firstDiv font {
+  font-weight: bold;
+  color: #4f5864;
+}
+
+.firstPic {
+  height: 190px;
+  /* width: 100%; */
+}
+
+.secondDiv {
+  width: 96%;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr 1.2fr;
+  background-color: #f4f7fb;
+  gap: 15px;
+}
+
+.discover {
+  background-color: #ffff;
+  margin-left: 15px;
+  width: 90%;
+}
+
+.discover h1 {
+  color: #6cb2ee;
+  padding: 13px 0 13px 18px;
+  border-bottom: solid rgba(128, 128, 128, 0.384) 1px;
+}
+
+.paragraphProp {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px rgba(128, 128, 128, 0.075) solid;
+}
+
+.paragraphProp p {
+  color: #4f5873;
+  padding: 10px 10px 15px 10px;
+}
+
+.paragraphProp p:hover {
+  cursor: pointer;
+  color: #4a9ce4;
+}
+
+.stock {
+  color: rgba(128, 128, 128, 0.795) !important;
+}
+
+.collection {
+  height: 89%;
+  background-color: #ffff;
+  box-shadow: 0px 5px 5px 0px rgba(219, 209, 209, 0.75);
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(219, 209, 209, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(219, 209, 209, 0.75);
+}
+
+.secondBox {
+  width: 100%;
+  height: 89%;
+  background-color: #ffff;
+  box-shadow: 0px 5px 5px 0px rgba(219, 209, 209, 0.75);
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(219, 209, 209, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(219, 209, 209, 0.75);
+}
+
+.secondBox img {
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+.collectionPTwo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subCollection h4 {
+  color: rgba(128, 128, 128, 0.945);
+  font-weight: lighter;
+  padding-left: 8px;
+}
+
+span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #53b6ee;
+  float: right;
+  padding-right: 8px;
+}
+
+.overLine {
+  text-decoration-line: line-through;
+  font-weight: bold !important;
+  /* padding-right: 4px; */
+}
+
+.subCollection {
+  /* padding-top: 40px; */
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+.collectionPOne img {
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+.collectionPOne h2 {
+  margin-top: 17px;
+}
+
+.collectionPOne h2 {
+  color: #4f5864;
+  font-weight: lighter;
+  padding: 0 0 5px 10px;
+}
+
+.sculptureumProp {
+  color: #01bff0;
+  font-weight: lighter;
+  padding: 0 0 3px 12px;
+}
+
+.matakanaProp {
+  color: rgba(128, 128, 128, 0.534);
+  padding: 0 0 3px 12px;
+}
+
+.rightSide {
+  display: flex;
+  /* padding-right: 8px; */
+  margin-left: 4px;
+}
+
+.colorP {
+  color: #1eb3ec;
+  font-family: MuseoSans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+}
+
+.rightSide h1 {
+  letter-spacing: 1px;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.rightSide h4 {
+  text-decoration-line: line-through;
+  color: gray;
+  padding: 17px 8px 0 0;
+  padding-top: 23px;
+}
+
+.secondBoxElements {
+  width: 100%;
+  text-align: center;
+}
+
+.secondBoxElements h3 {
+  color: rgb(68, 68, 68);
+  font-weight: 500;
+  padding-bottom: 3px;
+  margin-top: 17px;
+}
+
+.secondBoxElements p {
+  color: #01b2ee;
+  font-weight: 300;
+  padding-bottom: 18px;
+}
+
+.secondBoxElements button {
+  width: 150px;
+  height: 33px;
+  background-color: #ffff;
+  border-radius: 5px;
+  vertical-align: middle;
+  border: 2px solid #01b2ee;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #1eb3ef;
+  font-weight: 700;
+}
+
+.secondBoxElements button:hover {
+  cursor: pointer;
+}
+
+.messageContainer {
+  padding: 25px;
+  background-color: #ffff;
+  margin: 25px 25px 0 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 150%;
+  align-items: center;
+}
+
+.messageHeader h2 {
+  color: #01b2f1;
+  padding-left: 18px;
+}
+
+.messageElement {
+  padding-right: 18px;
+}
+
+.emailInput {
+  background: white url("../images/email.png") no-repeat 12px;
+  padding-left: 45px;
+  width: 450px;
+  height: 45px;
+  align-items: center;
+  border: unset;
+  box-shadow: 0px 3px 21px -1px rgba(219, 209, 209, 0.75);
+  -webkit-box-shadow: 0px 3px 21px -1px rgba(219, 209, 209, 0.75);
+  -moz-box-shadow: 0px 3px 21px -1px rgba(219, 209, 209, 0.75);
+  border-radius: 5px 0 0 5px;
+}
+
+.messageElement button {
+  height: 45px;
+  width: 115px;
+  background-color: #01b2ee;
+  color: #ffff;
+  border: unset;
+  box-shadow: 0px 3px 21px -1px #c6edfb;
+  -webkit-box-shadow: 0px 3px 21px -1px #c6edfb;
+  -moz-box-shadow: 0px 3px 21px -1px #c6edfb;
+}
+
+@media only screen and (max-width: 1150px) {
+  .firstDiv {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .discover {
+    display: none;
+  }
+  .secondDiv {
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    padding: 50px;
+    width: 85%;
+    margin-right: 0px;
+  }
+  .collection {
+    height: 103%;
+    margin-left: 60px;
+    width: 100%;
+  }
+  .secondBox {
+    height: 103%;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .messageContainer {
+    height: 100%;
+    padding: 0;
+    display: block;
+    padding: 15px;
+    width: 80%;
+    align-self: center;
+    margin-left: 8.5%;
+  }
+  .messageHeader {
+    padding-bottom: 20px;
+  }
+  .messageElement {
+    padding-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .firstPic {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 920px) {
+  .homeContainer {
+    width: 100%;
+  }
+  .messageContainer {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 790px) and (max-width: 920px) {
+  .firstDiv {
+    padding: 17px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 790px) {
+  .secondDiv {
+    /* padding: 1px; */
+    padding-right: 0px;
+    padding: 0;
+  }
+  .homeContainer {
+    width: 100% !important;
+  }
+  .firstDiv {
+    padding: 20px 15px 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+  .homeContainer {
+    width: 99.7%;
+  }
+
+  /* .secondDiv {
+     padding-left: -40px;
+     padding-right: -40px;
+  } */
+}
+
+@media only screen and (max-width: 750px) {
+  .secondDiv {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 97%;
+  }
+  .collection {
+    height: 103%;
+    margin-left: 60px;
+    width: 80vw;
+    margin-left: 0px;
+  }
+  .secondBox {
+    height: 103%;
+    margin-right: 0px;
+    width: 80vw;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 550px) {
+  .messageElement .emailInput {
+    width: 70%;
+  }
+  .messageElement button {
+    width: 18%;
+    font-size: 13px;
+  }
+  .homeContainer {
+    width: 100%;
+  }
+  /* .secondDiv{
+    padding: 10px;
+  } */
+}
+
+@media only screen and (max-width: 550px) and (min-width: 300px) {
+  .messageContainer {
+    height: 220%;
+  }
+  .messageElement .emailInput {
+    width: 45%;
+  }
+  .messageElement button {
+    width: 25%;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 438px) {
+  .secondDiv {
+    padding-left: 70px;
+    width: 10px;
+  }
+}
+
+@media only screen and (max-width: 515px) and (min-width: 350px) {
+  .secondDiv {
+    padding-left: 35px;
+    width: 10px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .messageElement .emailInput {
+    width: 70%;
+  }
+  .messageElement button {
+    width: 30%;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .secondDiv {
+    padding: 25px !important;
+  }
+}
+
+.img__wrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: -40px;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  size: 20px;
+  font-weight: bolder;
+  background: #05cef1e3;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2, visibility 0.2s;
+}
+
+.img__wrap p{
+   padding: 25% 0 25% 0;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}

@@ -1,0 +1,142 @@
+.collectionContainer {
+  max-width: 100%;
+  background-color: #f4f7fb;
+  padding: 10px;
+  padding-top: 25px;
+}
+
+.headerDiv {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.headerDiv h1 {
+  color: #4f5864;
+}
+
+.headerDiv h1:hover {
+  cursor: pointer;
+  color: #01b2ee;
+}
+
+.headerDiv button {
+  border: unset;
+  border-radius: 5px;
+  background-color: #01b2ee;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 35px;
+  height: 35px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 15px;
+  transition: all 0.15s ease-out;
+}
+
+.collectionBoxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  padding: 5px;
+}
+
+.collectionBox {
+  background-color: white;
+  box-shadow: 0px 2px 5px -2px rgba(133, 133, 133, 0.75);
+  -webkit-box-shadow: 0px 2px 5px -2px rgba(133, 133, 133, 0.75);
+}
+
+.mainImage {
+  display: block;
+  width: 100%;
+  border-bottom: gray 1px solid;
+  margin-bottom: 15px;
+}
+
+.boxContent {
+  display: block;
+  text-align: center;
+}
+
+.boxContent h3 {
+  color: black;
+  font-weight: 500;
+  padding-bottom: 2px;
+}
+
+.boxContent h5 {
+  color: #01b2ee;
+  padding-bottom: 15px;
+}
+
+.boxContent button {
+  width: 150px;
+  height: 33px;
+  background-color: #ffff;
+  border-radius: 5px;
+  vertical-align: middle;
+  border: 2px solid #01b2ee;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #1eb3ef;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.boxContent button:hover {
+  cursor: pointer;
+}
+
+.img__wrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: -40px;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  size: 20px;
+  font-weight: bolder;
+  background: #05cef1e3;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2, visibility 0.2s;
+}
+
+.img__wrap p {
+  padding: 25% 0 25% 0;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1150px) {
+  .collectionBoxes {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 75px 75px 75px;
+  }
+  .headerDiv h1 {
+    padding-left: 75px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .collectionBoxes {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+  .headerDiv h1 {
+    padding-left: 10px !important;
+  }
+}
